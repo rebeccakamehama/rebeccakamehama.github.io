@@ -1,5 +1,4 @@
 * {
-  /* border: 1px solid black; */
   box-sizing: border-box;
 }
 
@@ -64,23 +63,6 @@ a {
   justify-content: end;
 }
 
-.menu {
-  align-items: center;
-  justify-content: center;
-}
-
-.Globalheader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.Logo {
-  display: flex;
-  flex-direction: row;
-}
-.Title {
-  text-align: center;
-}
 main {
   flex: 1;
 }
