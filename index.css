@@ -6,7 +6,9 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #4731d8;
+  background-image: linear-gradient( 170deg, #4731D8 30% , #9d2cc4, #ca3ab2, #e656a4, #f6779d, #fc8797, #ff9895, #ffa997, #ffaf8e, #ffb786, #ffbf7e, #ffc977,#ffc8ae, #ffd6e2, #ffebfd, #fcfcfc);
+  
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
