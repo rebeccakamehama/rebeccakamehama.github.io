@@ -3,12 +3,8 @@
 }
 
 body {
-  height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient( 170deg, #4731D8 30% , #9d2cc4, #ca3ab2, #e656a4, #f6779d, #fc8797, #ff9895, #ffa997, #ffaf8e, #ffb786, #ffbf7e, #ffc977,#ffc8ae, #ffd6e2, #ffebfd, #fcfcfc);
-  
-  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,6 +30,63 @@ a {
   width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.background-1 {
+  height: 900px;
+  width: calc(100vw + 40px);
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  background: linear-gradient(
+    346.22deg,
+    #fcfcfc 20.12%,
+    #ffc977 0.4%,
+    #ffa3a3 3.32%,
+    #4731d8 30.87%
+  );
+  filter: blur(10px);
+
+  border-radius: 4px;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: row;
+}
+
+.heroImage {
+  width: 443px;
+  height: 443px;
+  left: 263px;
+  top: 128px;
+}
+
+.Intro {
+  margin-top: 200px;
+  margin-left: -70px;
+}
+
+.Title {
+  z-index: 1;
+  transform: rotate(-1.76deg);
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #ffa3a3;
+}
+
+.Paragraph {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #fcfcfc;
 }
 
 .social-midia,
