@@ -37,7 +37,7 @@ a {
 }
 
 .Project-sections {
-  height: 95vh;
+  height: 200vh;
 }
 
 .Project-view {
@@ -110,17 +110,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
-.Paragraph-italic {
-  font-family: "Fraunces";
-  font-style: italic;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
   align-items: center;
   color: #000000;
 }
@@ -133,6 +122,10 @@ a {
   line-height: 20px;
   letter-spacing: 0.01em;
   color: #fcfcfc;
+}
+
+.Project-view {
+  gap: 32px;
 }
 
 .Project-1-image {
@@ -156,7 +149,6 @@ button {
   align-items: flex-start;
   padding: 16px 0px;
   gap: 8px;
-  width: 100px;
   height: 56px;
   filter: drop-shadow(0px 20px 35px rgba(0, 118, 227, 0.15));
   flex: none;
@@ -171,6 +163,22 @@ button {
   line-height: 20px;
   text-align: center;
   color: #4731d8;
+}
+
+.multi-line-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.btn-primary:hover {
+  color: #011336;
+}
+
+/* **ARRUMAR icon houver** */
+
+.icon-butttom path {
+  color: #011336;
 }
 
 .social-midia,
