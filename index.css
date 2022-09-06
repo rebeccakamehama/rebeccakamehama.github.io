@@ -33,11 +33,11 @@ a {
 }
 
 .section-1 {
-  height: 90vh;
+  height: 80vh;
 }
 
 .Project-sections {
-  height: 200vh;
+  height: 280vh;
 }
 
 .Project-view {
@@ -50,13 +50,13 @@ a {
   padding-bottom: 24px;
 }
 .background-1 {
-  height: 900px;
-  width: calc(100vw + 40px);
+  height: 912px;
+  width: calc(100vw + 200px);
   position: absolute;
-  top: -20px;
-  left: -20px;
+  top: -124px;
+  left: -124px;
   z-index: -1;
-  background: linear-gradient(
+  /* background: linear-gradient(
     346.22deg,
     #fcfcfc 20.12%,
     #ffc977 0.4%,
@@ -64,7 +64,16 @@ a {
     #4731d8 30.87%
   );
   filter: blur(10px);
+  border-radius: 4px; */
 
+  background: linear-gradient(
+    346.22deg,
+    #fcfcfc -7.12%,
+    #ffc977 0.4%,
+    #ffa3a3 7.32%,
+    #4731d8 26.87%
+  );
+  filter: blur(100px);
   border-radius: 4px;
 }
 
@@ -210,14 +219,37 @@ button {
   justify-content: end;
 }
 
-main {
-  flex: 1;
+.gallery {
+  margin-top: 30px;
 }
-.Footerbuttons {
-  display: flex;
-  justify-content: space-evenly;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 16px;
 }
 
-.Signature {
-  text-align: center;
+.grid img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 4px;
+}
+.grid img:hover {
+  opacity: 0.8;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+hr.solid {
+  border-top: 1px solid #fcfcfc;
 }
