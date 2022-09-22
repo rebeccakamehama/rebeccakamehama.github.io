@@ -50,21 +50,12 @@ a {
   padding-bottom: 24px;
 }
 .background-1 {
-  height: 912px;
+  height: 700px;
   width: calc(100vw + 200px);
   position: absolute;
   top: -124px;
-  left: -124px;
+  left: -70px;
   z-index: -1;
-  /* background: linear-gradient(
-    346.22deg,
-    #fcfcfc 20.12%,
-    #ffc977 0.4%,
-    #ffa3a3 3.32%,
-    #4731d8 30.87%
-  );
-  filter: blur(10px);
-  border-radius: 4px; */
 
   background: linear-gradient(
     346.22deg,
@@ -73,10 +64,30 @@ a {
     #ffa3a3 7.32%,
     #4731d8 26.87%
   );
-  filter: blur(100px);
+  filter: blur(80px);
   border-radius: 4px;
 }
+.background-2 {
+  position: absolute;
+  height: 600px;
+  width: calc(100vw + 200px);
+  position: absolute;
+  top: 2500px;
+  left: -100px;
+  z-index: -1;
+  transform: rotate(-180deg);
+  margin-bottom: -100px;
 
+  background: linear-gradient(
+    346.22deg,
+    #fcfcfc -7.12%,
+    #ffc977 0.4%,
+    #ffa3a3 7.32%,
+    #4731d8 26.87%
+  );
+  filter: blur(60px);
+  border-radius: 4px;
+}
 .Hero {
   display: flex;
   flex-direction: row;
@@ -121,6 +132,27 @@ a {
   line-height: 20px;
   align-items: center;
   color: #000000;
+}
+
+.Title-Footer {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fcfcfc;
+}
+.Paragraph-footer {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #fcfcfc;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
 
 .Paragraph-hero {
@@ -252,4 +284,16 @@ footer {
 }
 hr.solid {
   border-top: 1px solid #fcfcfc;
+}
+
+@media screen and (max-width: 700px) {
+  .Hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Intro {
+    margin-top: -60px;
+    margin-left: 0px;
+  }
 }
